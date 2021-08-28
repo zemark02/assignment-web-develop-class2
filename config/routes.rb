@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'somchai/xxx'
 
   get 'main/welcome'
-  get 'main/contact'
+  get 'main/contact_us'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get "somchai",to: "main#xxx"
   get "welcome", to: "main#welcome"
