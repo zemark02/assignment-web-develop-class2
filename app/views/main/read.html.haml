@@ -1,1 +1,6 @@
-= @s
+%h1 READ POST
+
+-if @res == nil
+	%p Invalid User_id
+-else
+	=@res.join(" , ")
