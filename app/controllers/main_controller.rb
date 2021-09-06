@@ -31,7 +31,7 @@ class MainController < ApplicationController
     @s = ""
     co = 1
     for i in User.find(userid).posts do
-      @s = "Post #{co} : #{i.msg} \n\n"
+      @s = "Post #{co} : #{i.msg} "
       co = co+1
     end
   end
